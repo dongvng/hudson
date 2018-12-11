@@ -1,0 +1,162 @@
+.ftr-compo{
+	background-color: #111;	
+	color: white;
+	padding-top: 70px;
+	padding-bottom: 0px;
+}
+.ftr-compo .ftr-head{
+	padding-bottom: 40px;
+}
+.ftr-first h1{
+	text-transform: uppercase;
+	color: #1bbde8;
+}
+.ftr-first p{
+	font-size: 15px;
+}
+.ftr-first div{
+	position: relative;
+	width: 100%;
+	height: 30px;
+}
+.ftr-first ul{
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.ftr-first li{
+	float: left;
+	margin-right: 15px;
+}
+.ftr-first img{
+	width: 20px;
+}
+
+.ftr-scd .ftr-cmn-head,
+.ftr-third .ftr-cmn-head,
+.ftr-fourth .ftr-cmn-head{
+	position: relative;
+	text-transform: uppercase;
+	padding-bottom: 25px;
+	margin-bottom: 20px;
+	font-size: 18px;
+	margin-top: 10px;
+}
+.ftr-cmn-head::before{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 30px;
+	height: 3px;
+	background-color: #1bbde8;
+}
+.ftr-scd .form-group{
+	width: 250px;
+}
+.ftr-scd .form-group .form-control{
+	background-color: #111;
+	color: white;
+}
+.ftr-scd .scd-sscr-link .ftr-scd-sscr{
+	width: 250px;
+	border-radius: 5px;
+	background-color: #1bbde8;
+	text-transform: uppercase;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 8px 0px;
+	margin-bottom: 15px;
+	color: white;
+	transition: all 0.3s;
+}
+.ftr-scd .scd-sscr-link:hover{
+	text-decoration: none;
+}
+.ftr-scd .scd-sscr-link:hover .ftr-scd-sscr{
+	background-color: white;
+	color: black;
+}
+
+.ftr-scd-icon ul{
+	list-style-type: none;
+	padding: 0;
+}
+.ftr-scd-icon li{
+	float: left;
+	margin-right: 3px;
+	width: 35px;
+	height: 35px;
+	background-color: #333;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s;
+}
+.ftr-scd-icon li:hover{
+	background-color: #1bbde8;
+}
+.ftr-scd-icon ul li a .fab,
+.ftr-scd-icon ul li a .fas{
+	color: white;
+}
+
+.ftr-third-ctn{
+	width: 100%;
+}
+.ftr-third-item{
+	float: left;
+	margin-bottom: 3px;
+	height: 75px;
+	width: 75px;
+	margin-right: 3px;
+}
+.ftr-third-item img{
+	height: 75px;
+	width: 75px;	
+}
+
+.ftr-fourth p{
+	font-size: 15px;
+}
+
+.ctn-below{
+	background-color: #333;
+	padding: 15px 0px;
+}
+/*.ctn-below .container .col-12{
+	text-align: center;
+}*/
+.ctn-below .container a{
+	color: white;
+	transition: all 0.3s;
+}
+.ctn-below .container a:hover{
+	text-decoration: none;
+	color: #1bbde8;
+}
+.ctn-below .container .ctn-below-left{
+	
+}
+.ctn-below .container .ctn-below-left p{
+	font-size: 13px;
+	height: 100%;
+	margin: 0;
+}
+
+.ctn-below-left p i{
+	color: #1bbde8;
+}
+.ctn-below-right{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.ctn-below-right a{
+	padding: 0px 8px;
+	font-size: 14px;
+}
