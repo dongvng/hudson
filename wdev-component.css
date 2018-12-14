@@ -1,0 +1,72 @@
+.wdev-compo{
+	width: 100%;
+	height: auto;
+	padding: 80px 0px;
+	background-color: #f7f7f7;
+}
+.wdev-compo .container{
+	height: 100%;
+}
+.wdev-item-ctn{
+	width: 100%;
+	height: auto;
+	margin-bottom: 20px;
+}
+.wdev-item-h{
+	position: relative;
+	text-transform: uppercase;
+	font-size: 30px;
+	color: black;
+	margin-bottom: 25px;
+	padding-bottom: 15px;
+}
+.wdev-item-h span{
+	color: #1bbde8;
+}
+.wdev-item-h::after{
+	position: absolute;
+	content: '';
+	display: block;
+	left: 0;
+	bottom: 0;
+	width: 40px;
+	height: 2px;
+	background-color: #1bbde8;
+}
+.wdev-item-para{
+	color: #444;
+	margin-bottom: 25px;
+}
+.wdev-item-ctn ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 40px;
+}
+.fa-check-circle{
+	color: #1bbde8;
+	margin-right: 15px;
+}
+.wdev-item-ctn ul li{
+	margin-bottom: 12px;
+}
+.wdev-item-ctn ul p{
+	display: inline;
+}
+
+.wdev-item-rm{
+	padding: 10px 25px;
+	text-transform: uppercase;
+	color: white;
+	background-color: #1bbde8;
+	transition: all 0.3s;
+}
+.wdev-item-rm:hover{
+	text-decoration: none;
+	color: #1bbde8;
+	background-color: #333;
+}
+.wdev-item-img{
+	width: 100%;
+	height: auto;
+}
