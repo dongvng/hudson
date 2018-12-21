@@ -53,7 +53,7 @@
 .ds-item-ctn{
 	width: 50%;
 	height: 100%;
-	border-top: 1px solid #aaa;
+	border-top: 1px solid #d8d3d3;
 	display: flex;
 	justify-content: center;
 	align-items: center;
