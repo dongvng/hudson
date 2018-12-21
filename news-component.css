@@ -1,11 +1,31 @@
+
 .nw-compo{
 	width: 100%;
 	height: auto;
 	padding: 60px 0px;
-	background-color: #eee;
+	background-color: #f7f7f7;
 }
 .nw-compo .container{
 	height: 100%;
+}
+.nw-head{
+	position: relative;
+	text-align: center;
+	font-size: 34px;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	color: black;
+	margin-bottom: 35px;
+}
+.nw-head::after{
+	position: absolute;
+	content: '';
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	width: 40px;
+	height: 2px;
+	background-color: #1bbde8;
 }
 .nw-ctn-item{
 	width: 100%;
