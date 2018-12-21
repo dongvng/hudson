@@ -6,12 +6,786 @@
     <title>HUDSON</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="header-component.css">
+	<link rel="stylesheet" type="text/css" href="carousel-component.css">
 	<link rel="stylesheet" type="text/css" href="footer-component.css">
 	<link rel="stylesheet" type="text/css" href="partners-component.css">
+	<link rel="stylesheet" type="text/css" href="wts-component.css">
+	<link rel="stylesheet" type="text/css" href="news-component.css">
+	<link rel="stylesheet" type="text/css" href="design-component.css">
+	<link rel="stylesheet" type="text/css" href="team-component.css">
+	<link rel="stylesheet" type="text/css" href="wcs-component.css">
+	<link rel="stylesheet" type="text/css" href="wdev-component.css">
+	<link rel="stylesheet" type="text/css" href="olw-component.css">
 	
 </head>
 <body>
+	<!-- header -->
+	<div class="header-compo" id="top">
+		<div class="container h-100 d-flex justify-content-between align-item-center">
+			<div class="header-icon ">
+				<ul class="pl-0 pt-2">
+					<li>
+						<a href="#" target="_blank">
+							<i class="fab fa-facebook-f pl-1 pr-1"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">
+							<i class="fab fa-twitter"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">
+							<i class="fab fa-google-plus-g"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">
+							<i class="fab fa-youtube"></i>
+						</a>
+					</li>
+					<li>
+						<a href="#" target="_blank">
+							<i class="fab fa-linkedin-in"></i>
+						</a>
+					</li>	
+					<li>
+						<a href="#" target="_blank">
+							<i class="fas fa-rss"></i>
+						</a>
+					</li>							
+				</ul>
+			</div>
+			<div class="header-info d-flex flex-row ">
+				<div class="d-flex flex-row align-items-center justify-content-center mr-3">
+					<i class="fas fa-phone pr-1 text-white"></i>
+					<p class="pb-0 m-0 text-white">+466 123 333 589</p>
+				</div>
+				<div class="d-flex flex-row align-items-center justify-content-center">
+					<i class="fas fa-map-marker-alt pr-1 text-white"></i>
+					<p class="pb-0 m-0 text-white">128 W 44th St, New York, New York 10075</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top nav-field pt-0 pb-0">
+		<div class="container h-100 position-relative">
+			<div class="navbar-header w-100 d-flex flex-row justify-content-between">
+				<a href="#" class="navbar-brand" title="Hudson">
+					<img src="./images/background/logo.png" alt="">
+				</a>
+				<button class="navbar-toggler position-relative
+				" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+			<div class="navbar-ver-sm navbar-collapse collapse" id="navbarNav">
+				<ul class="nav navbar-nav d-flex flex-column justify-content-center position-relative">
+					<li class="nav-item-md position-relative mb-2">
+						<a href="#" class="nav-link h-100 dropdown-toggle " data-toggle="dropdown">home</a>
+						<ul class="container dropdown-menu-2" role='menu'>
+							<li><a href="#" class="dropdown-item">homepage 1</a></li>
+							<li><a href="#" class="dropdown-item">homepage 2</a></li>
+							<li><a href="#" class="dropdown-item">homepage 3</a></li>
+							<li><a href="#" class="dropdown-item">homepage 4</a></li>
+							<li><a href="#" class="dropdown-item">homepage 5</a></li>
+							<li><a href="#" class="dropdown-item">homepage 6</a></li>
+						</ul>	
+					</li>
+					<li class="nav-item-md position-relative mb-2">
+						<a href="#" class="nav-link h-100 dropdown-toggle " data-toggle="dropdown">feature</a>
+						<ul class="container dropdown-menu-2">
+							<li><a href="#" class="dropdown-item">responsive slider</a></li>
+							<li><a href="#" class="dropdown-item">full screen slider</a></li>
+							<li><a href="#" class="dropdown-item">parallax banner 1</a></li>
+							<li><a href="#" class="dropdown-item">parallax banner 2</a></li>
+							<li><a href="#" class="dropdown-item">image banner 1</a></li>
+							<li><a href="#" class="dropdown-item">video banner 1</a></li>
+							<li><a href="#" class="dropdown-item">video banner 2</a></li>
+							<li><a href="#" class="dropdown-item">carousel slider</a></li>
+						</ul>
+					</li>
+					<li class="nav-item-md position-relative mb-2">
+						<a href="#" class="nav-link h-100 dropdown-toggle " data-toggle="dropdown">pages</a>
+						<ul class="container dropdown-menu-2">
+							<li><a href="#" class="dropdown-item">about us 1</a></li>
+							<li><a href="#" class="dropdown-item">about us 2</a></li>
+							<li><a href="#" class="dropdown-item">about us 3</a></li>
+							<li><a href="#" class="dropdown-item">service page 1</a></li>
+							<li><a href="#" class="dropdown-item">service page 2</a></li>
+							<li><a href="#" class="dropdown-item">service page 3</a></li>
+							<li><a href="#" class="dropdown-item">process page</a></li>
+						</ul>
+					</li>
+					<li class="nav-item-md position-relative mb-2">
+						<a href="#" class="nav-link h-100 dropdown-toggle " data-toggle="dropdown">portfolio</a>
+						<ul class="container dropdown-menu-2">
+							<li><a href="#" class="dropdown-item">portfolio 2 col st 1</a></li>
+							<li><a href="#" class="dropdown-item">portfolio 2 col st 2</a></li>
+							<li><a href="#" class="dropdown-item">portfolio 3 col st 1</a></li>
+							<li><a href="#" class="dropdown-item">portfolio 3 col st 2</a></li>
+							<li><a href="#" class="dropdown-item">portfolio 4 col st 1</a></li>
+							<li><a href="#" class="dropdown-item">portfolio 4 col st 2</a></li>
+							<li><a href="#" class="dropdown-item">portfolio masonry 1</a></li>
+							<li><a href="#" class="dropdown-item">portfolio masonry 2</a></li>
+						</ul>
+					</li>
+					<li class="nav-item-md position-relative mb-2">
+						<a href="#" class="nav-link h-100 dropdown-toggle " data-toggle="dropdown">blog</a>
+						<ul class="container dropdown-menu-2">
+							<li><a href="#" class="dropdown-item">blog full width</a></li>
+							<li><a href="#" class="dropdown-item">blog left sidebar</a></li>
+							<li><a href="#" class="dropdown-item">blog right sidebar</a></li>
+							<li><a href="#" class="dropdown-item">blog single post</a></li>
+							<li><a href="#" class="dropdown-item">single left sidebar</a></li>
+							<li><a href="#" class="dropdown-item">single right sidebar</a></li>
+						</ul>
+					</li>
+					<li class="nav-item-md position-relative mb-2">
+						<a href="#" class="nav-link h-100 dropdown-toggle " data-toggle="dropdown">elements</a>
+						<ul class="container dropdown-menu-2">
+							<a href="#" class="dropdown-item"><i class="fas fa-plus-circle"></i>alert</a>
+							<a href="#" class="dropdown-item"><i class="fas fa-sort-alpha-up"></i>accordion</a>
+							<a href="#" class="dropdown-item"><i class="fas fa-bolt"></i>animated counter</a>
+							<a href="#" class="dropdown-item"><i class="fas fa-sort-numeric-up"></i>block number</a>
+							<a href="#" class="dropdown-item"><i class="fas fa-quote-right"></i>block quote</a>
+							<a href="#" class="dropdown-item"><i class="far fa-newspaper"></i>blog content</a>
+							<a href="#" style="border-bottom:none;" class="dropdown-item"><i class="fas fa-th"></i>bootstrap grid</a>
+							<a href="#" class="dropdown-item"><i class="fas fa-sliders-h"></i>carousel</a>
+							<a href="#" class="dropdown-item"><i class="far fa-file-alt"></i>call to action</a>
+							<a href="#" class="dropdown-item"><i class="fab fa-angellist"></i>client</a>
+							<a href="#" class="dropdown-item"><i class="fas fa-align-justify"></i>devider</a>
+							<a href="#" class="dropdown-item"><i class="fas fa-heading"></i>dropcap</a>
+							<a href="#" class="dropdown-item"><i class="fas fa-exclamation-triangle"></i>error page</a>
+							<a href="#" style="border-bottom:none;" class="dropdown-item"><i class="fas fa-question"></i>F.A.Q</a>
+							<a href="#" class="dropdown-item"><i class="fas fa-dollar-sign"></i>pricing table</a>
+							<a href="#" class="dropdown-item"><i class="fas fa-chart-line"></i>progress bar</a>
+							<a href="#" class="dropdown-item"><i class="fas fa-random"></i>tabs</a>
+							<a href="#" class="dropdown-item"><i class="fas fa-user"></i>team</a>
+							<a href="#" class="dropdown-item"><i class="fab fa-pagelines"></i>testimonial</a>
+							<a href="#" class="dropdown-item"><i class="fas fa-font"></i>typography</a>
+							<a href="#" style="border-bottom:none;" class="dropdown-item"><i class="fab fa-youtube"></i>videos</a>
+						</ul>
+					<li class="nav-item-md position-relative">
+						<a href="#" class="nav-link h-100 dropdown-toggle " data-toggle="dropdown">contact</a>
+						<ul class="container dropdown-menu-2">
+							<li><a href="#" class="dropdown-item">contact 1</a></li>
+							<li><a href="#" class="dropdown-item">contact 2</a></li>
+							<li><a href="#" class="dropdown-item">contact 3</a></li>
+							<li><a href="#" class="dropdown-item">contact 4</a></li>
+							<li><a href="#" class="dropdown-item">contact 5</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="collapse navbar-collapse h-100" id="navbarNav2">
+				<ul class="navbar-nav h-100 d-flex align-items-center justify-content-center">
+					<li class="nav-item position-relative h-100">
+						<a href="#" class="nav-link h-100 dropdown-toggle" data-toggle="dropdown">Home</a>	
+						<div class="dropdown-menu mt-0 px-4 py-3" aria-labelledby="dropdownMenuButton">
+							<a href="#" class="dropdown-item">homepage 1</a>
+							<a href="#" class="dropdown-item">homepage 2</a>
+							<a href="#" class="dropdown-item">homepage 3</a>
+							<a href="#" class="dropdown-item">homepage 4</a>
+							<a href="#" class="dropdown-item">homepage 5</a>
+							<a href="#" style="border-bottom:none;" class="dropdown-item">homepage 6</a>
+						</div>
+					</li>
+					<li class="nav-item position-relative h-100">
+						<a href="#" class="nav-link h-100 dropdown-toggle" data-toggle="dropdown">Features</a>
+						<div class="dropdown-menu mt-0 px-3 py-4 d-flex flex-row ddm-2" aria-labelledby="dropdownMenuButton">
+							<div>
+								<a href="#" class="dropdown-item">responsive slider</a>
+								<a href="#" class="dropdown-item">full screen slider</a>
+								<a href="#" class="dropdown-item">parallax banner 1</a>
+								<a href="#" class="dropdown-item">parallax banner 2</a>
+							</div>
+							<div class="ml-2">
+								<a href="#" class="dropdown-item">image banner 1</a>
+								<a href="#" class="dropdown-item">video banner 1</a>
+								<a href="#" class="dropdown-item">video banner 2</a>
+								<a href="#" class="dropdown-item">carousel slider</a>
+							</div>
+							<div class="feature-img ml-2">
+								<a href="#" class="exclu-ft">
+									<img src="http://farm2.staticflickr.com/1470/24914296336_0f3d366a10_s.jpg" alt="">
+								</a>
+								<a href="#" class="exclu-ft">
+									<img src="http://farm2.staticflickr.com/1701/24847268381_3a3084815f_s.jpg" alt="">
+								</a>
+								<a href="#" class="exclu-ft">
+									<img src="http://farm2.staticflickr.com/1607/24309991804_7287367fe9_s.jpg" alt="">
+								</a>
+								<a href="#" class="exclu-ft">
+									<img src="http://farm2.staticflickr.com/1487/24847268621_97c52ef5fb_s.jpg" alt="">
+								</a>
+								<a href="#" class="exclu-ft">
+									<img src="http://farm2.staticflickr.com/1454/24178729712_c518f3d4c8_s.jpg" alt="">
+								</a>
+								<a href="#" class="exclu-ft">
+									<img src="http://farm2.staticflickr.com/1606/24104641961_b9c169cf01_s.jpg" alt="">
+								</a>
+								<a href="#" class="exclu-ft">
+									<img src="http://farm2.staticflickr.com/1709/23891631100_d5294daf81_s.jpg" alt="">
+								</a>
+								<a href="#" class="exclu-ft">
+									<img src="http://farm2.staticflickr.com/1703/24104641981_ed99863a86_s.jpg" alt="">
+								</a>
+								<a href="#" class="exclu-ft">
+									<img src="http://farm2.staticflickr.com/1497/24187234155_ab19c70bd7_s.jpg" alt="">
+								</a>
+							</div>
+						</div>	
+					</li>
+					<li class="nav-item position-relative h-100">
+						<a href="#" class="nav-link h-100 dropdown-toggle" data-toggle="dropdown">Pages</a>	
+						<div class="dropdown-menu mt-0 px-4 py-3" aria-labelledby="dropdownMenuButton">
+							<a href="#" class="dropdown-item">about us 1</a>
+							<a href="#" class="dropdown-item">about us 2</a>
+							<a href="#" class="dropdown-item">about us 3</a>
+							<a href="#" class="dropdown-item">service page 1</a>
+							<a href="#" class="dropdown-item">service page 2</a>
+							<a href="#" class="dropdown-item">service page 3</a>
+							<a href="#" style="border-bottom:none;" class="dropdown-item">process page</a>
+						</div>
+					</li>
+					<li class="nav-item position-relative h-100">
+						<a href="#" class="nav-link h-100 dropdown-toggle" data-toggle="dropdown">Portfolio</a>	
+						<div class="dropdown-menu mt-0 px-4 py-3" aria-labelledby="dropdownMenuButton">
+							<a href="#" class="dropdown-item">portfolio 2 col st 1</a>
+							<a href="#" class="dropdown-item">portfolio 2 col st 2</a>
+							<a href="#" class="dropdown-item">portfolio 3 col st 1</a>
+							<a href="#" class="dropdown-item">portfolio 3 col st 2</a>
+							<a href="#" class="dropdown-item">portfolio 4 col st 1</a>
+							<a href="#" class="dropdown-item">portfolio 4 col st 2</a>
+							<a href="#" class="dropdown-item">portfolio masonry 1</a>
+							<a href="#" style="border-bottom:none;" class="dropdown-item">portfolio masonry 2</a>
+						</div>
+					</li>
+					<li class="nav-item position-relative h-100">
+						<a href="#" class="nav-link h-100 dropdown-toggle" data-toggle="dropdown">blog</a>	
+						<div class="dropdown-menu mt-0 px-4 py-3" aria-labelledby="dropdownMenuButton">
+							<a href="#" class="dropdown-item">blog full width</a>
+							<a href="#" class="dropdown-item">blog left sidebar</a>
+							<a href="#" class="dropdown-item">blog right sidebar</a>
+							<a href="#" class="dropdown-item">blog single post</a>
+							<a href="#" class="dropdown-item">service page 2</a>
+							<a href="#" class="dropdown-item">service page 3</a>
+							<a href="#" style="border-bottom:none;" class="dropdown-item">process page</a>
+						</div>
+					</li>
+					<li class="nav-item position-relative h-100">
+						<a href="#" class="nav-link h-100 dropdown-toggle" data-toggle="dropdown">elements</a>
+						<div class="dropdown-menu mt-0 px-3 py-4 d-flex flex-row ddm-element" aria-labelledby="dropdownMenuButton">
+							<div class="mr-5">
+								<a href="#" class="dropdown-item"><i class="fas fa-plus-circle"></i>alert</a>
+								<a href="#" class="dropdown-item"><i class="fas fa-sort-alpha-up"></i>accordion</a>
+								<a href="#" class="dropdown-item"><i class="fas fa-bolt"></i>animated counter</a>
+								<a href="#" class="dropdown-item"><i class="fas fa-sort-numeric-up"></i>block number</a>
+								<a href="#" class="dropdown-item"><i class="fas fa-quote-right"></i>block quote</a>
+								<a href="#" class="dropdown-item"><i class="far fa-newspaper"></i>blog content</a>
+								<a href="#" style="border-bottom:none;" class="dropdown-item"><i class="fas fa-th"></i>bootstrap grid</a>
+							</div>
+							<div class="mr-5">
+								<a href="#" class="dropdown-item"><i class="fas fa-sliders-h"></i>carousel</a>
+								<a href="#" class="dropdown-item"><i class="far fa-file-alt"></i>call to action</a>
+								<a href="#" class="dropdown-item"><i class="fab fa-angellist"></i>client</a>
+								<a href="#" class="dropdown-item"><i class="fas fa-align-justify"></i>devider</a>
+								<a href="#" class="dropdown-item"><i class="fas fa-heading"></i>dropcap</a>
+								<a href="#" class="dropdown-item"><i class="fas fa-exclamation-triangle"></i>error page</a>
+								<a href="#" style="border-bottom:none;" class="dropdown-item"><i class="fas fa-question"></i>F.A.Q</a>
+							</div>
+							<div class="mr-5">
+								<a href="#" class="dropdown-item"><i class="fab fa-codepen"></i>feature box</a>
+								<a href="#" class="dropdown-item"><i class="fas fa-heart"></i>font awesome</a>
+								<a href="#" class="dropdown-item"><i class="far fa-credit-card"></i>get a quote</a>
+								<a href="#" class="dropdown-item"><i class="fas fa-image"></i>image content</a>
+								<a href="#" class="dropdown-item"><i class="far fa-heart"></i>line icons et</a>
+								<a href="#" class="dropdown-item"><i class="fas fa-exclamation-circle"></i>offline page</a>
+								<a href="#" style="border-bottom:none;" class="dropdown-item"><i class="fas fa-chart-pie"></i>line chart</a>
+							</div>
+							<div>
+								<a href="#" class="dropdown-item"><i class="fas fa-dollar-sign"></i>pricing table</a>
+								<a href="#" class="dropdown-item"><i class="fas fa-chart-line"></i>progress bar</a>
+								<a href="#" class="dropdown-item"><i class="fas fa-random"></i>tabs</a>
+								<a href="#" class="dropdown-item"><i class="fas fa-user"></i>team</a>
+								<a href="#" class="dropdown-item"><i class="fab fa-pagelines"></i>testimonial</a>
+								<a href="#" class="dropdown-item"><i class="fas fa-font"></i>typography</a>
+								<a href="#" style="border-bottom:none;" class="dropdown-item"><i class="fab fa-youtube"></i>videos</a>
+							</div>
+						</div>
+					</li>
+					<li class="nav-item position-relative h-100">
+						<a href="#" class="nav-link h-100 dropdown-toggle" data-toggle="dropdown">contact</a>	
+						<div class="dropdown-menu mt-0 px-4 py-3" aria-labelledby="dropdownMenuButton">
+							<a href="#" class="dropdown-item">contact 1</a>
+							<a href="#" class="dropdown-item">contact 2</a>
+							<a href="#" class="dropdown-item">contact 3</a>
+							<a href="#" class="dropdown-item">contact 4</a>
+							<a href="#" style="border-bottom:none;" class="dropdown-item">contact 5</a>
+						</div>
+					</li>
+					<li class="nav-item position-relative h-100">
+						<a href="#" class="nav-link h-100 dropdown-toggle" data-toggle="dropdown">
+						<i class="fas fa-search d-inline mr-1"></i>Search
+						</a>
+						<div class="dropdown-menu mt-0 px-4 py-3 ddm-search" aria-labelledby="dropdownMenuButton">
+							<form action="#">
+								<input type="text" placeholder="Search ...">
+							</form>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!-- carousel -->
+
+	<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel" data-interval="8000" data-pause="hover">
+		<ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+		    <div class="carousel-item active">
+			    <img class="d-block w-100" src="./images/slideshow/slider2.jpg" alt="First slide">
+			    <div class="elapsed-slider">
+			    </div>
+			    <div class="carousel-inner-title left">
+					<h3>multipurpose & creative</h3>
+					<p>Hudson is made with drag n drop page builder
+					<br>most popular Joomla page builder in community</p>
+					<div class="carousel-lm"><a href="#">buy template</a></div>
+			    </div>
+		    </div>
+		    <div class="carousel-item">
+		        <img class="d-block w-100" src="./images/slideshow/slider1.jpg" alt="Second slide">
+		        <div class="elapsed-slider">
+			    </div>
+		        <div class="carousel-inner-title middle">
+					<h3>a multipurpose template <br> for your business</h3>
+					<p>Choose from a wide range of elements & <br> simply create your own Hudson</p>
+					<div class="carousel-lm cr-lm-1"><a href="#">purchase</a></div>
+					<div class="carousel-lm cr-lm-2"><a href="#">contact us</a></div>
+			    </div>
+		    </div>
+		    <div class="carousel-item">
+		         <img class="d-block w-100" src="./images/slideshow/slider3.jpg" alt="Third slide">
+		         <div class="elapsed-slider">
+			    </div>
+		         <div class="carousel-inner-title left">
+					<h3>multipurpose & creative</h3>
+					<p>Hudson is made with drag n drop page builder
+					<br>most popular Joomla page builder in community</p>
+					<div class="carousel-lm"><a href="#">buy hudson</a></div>
+			    </div>
+		    </div>
+		</div>
+	  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-chevron-circle-left fa-3x"></i></span>
+		    <span class="sr-only">Previous</span>
+	  	</a>
+	    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-chevron-circle-right fa-3x"></i></span>
+		    <span class="sr-only">Next</span>
+		</a>
+	</div>
+
+	<!-- wcs -->
+	<div class="wcs-compo">
+		<div class="container">
+			<div class="wcs-head nw-head">why choose us</div>
+			<div class="row">
+				<div class="col-12 col-md-6 col-lg-3 wcs-item">
+					<div class="wcs-item-h">
+						<i class="fas fa-layer-group rt-cm"></i>
+						<a href="#" class="wcs-item-atag"><h3>sp pagebuilder</h3></a>
+					</div>
+					<p>Nulla facilisi curabitur iaculis accumsan augue, nec finibus pretium eu.</p>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3 wcs-item">
+					<div class="wcs-item-h">
+						<i class="fas fa-desktop rt-cm"></i>
+						<a href="#" class="wcs-item-atag"><h3>responsive build</h3></a>
+					</div>
+					<p>Curabitur iaculis accumsan augue, nec finibus mauris pretium eu.</p>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3 wcs-item">
+					<div class="wcs-item-h">
+						<i class="fas fa-camera rt-cm"></i>
+						<a href="#" class="wcs-item-atag"><h3>retina ready</h3></a>
+					</div>
+					<p>Suspendisse ultricies umsan augue, nec finibus mauris pretium eu.</p>
+				</div>
+				<div class="col-12 col-md-6 col-lg-3 wcs-item">
+					<div class="wcs-item-h">
+						<i class="fab fa-react rt-cm"></i>
+						<a href="#" class="wcs-item-atag"><h3>clean look</h3></a>
+					</div>
+					<p>Duis placerat ex gravida nibh tristique porta.eros blandit mauris eu.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- wdev -->
+	<div class="wdev-compo">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-6 wdev-item-ctn">
+					<div class="wdev-item-h">web <span>development</span></div>
+					<p class="wdev-item-para">Integer adipiscing erat eget risus sollicitudin pellentesque et non erat. Maecenas nibh dolor, malesuada et bibendum a, sagittis accumsan ipsum. Pellentesque ultrices ultrices sapien, nec tincidunt nunc posuere ut.</p>
+					<ul>
+						<li><i class="fas fa-check-circle"></i><p>Interdum et malesuada fames ac ante</p></li>
+						<li><i class="fas fa-check-circle"></i><p>Malesuada fames ac ante ipsum</p></li>
+						<li><i class="fas fa-check-circle"></i><p>Nam blandit quam nibh, at fermentum</p></li>
+					</ul>
+					<a href="#" class="wdev-item-rm">see more</a>
+				</div>
+				<div class="col-12 col-md-6 wdev-item-img">
+					<img src="./images/background/mac1.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- our latest work -->
+	<div class="olw-compo">
+		<div class="olw-head nw-head">
+			our latest work
+		</div>
+		<div class="olw-selector">
+			<a href="#" class="olw-slt active2">show all</a>
+			<a href="#" class="olw-slt">multipurpose</a>
+			<a href="#" class="olw-slt">joomla</a>
+			<a href="#" class="olw-slt">wordpress</a>
+		</div>
+		<div class="olw-main clearfix">
+			<div class="olw-m-item">
+				<div class="olw-item-img">
+					<img src="./images/portfolio/portfolio1.jpg" alt="">
+					<div class="olw-overlay"></div>
+				</div>
+				<div class="olw-item-ctn">
+					<a href="#" class="olw-item-atag">view</a>
+					<h3 class="olw-it-up"><a href="#">another portfolio 1</a></h3>
+					<p class="olw-it-up">Joomla, Wordpress</p>
+				</div>
+			</div>
+			<div class="olw-m-item">
+				<div class="olw-item-img">
+					<img src="./images/portfolio/portfolio2.jpg" alt="">
+					<div class="olw-overlay"></div>
+				</div>
+				<div class="olw-item-ctn">
+					<a href="#" class="olw-item-atag">view</a>
+					<h3 class="olw-it-up"><a href="#">another portfolio 2</a></h3>
+					<p class="olw-it-up">multipurpose, Wordpress</p>
+				</div>
+			</div>
+			<div class="olw-m-item">
+				<div class="olw-item-img">
+					<img src="./images/portfolio/portfolio3.jpg" alt="">
+					<div class="olw-overlay"></div>
+				</div>
+				<div class="olw-item-ctn">
+					<a href="#" class="olw-item-atag">view</a>
+					<h3 class="olw-it-up"><a href="#">another portfolio 3</a></h3>
+					<p class="olw-it-up">multipurpose, Joomla</p>
+				</div>
+			</div>
+			<div class="olw-m-item">
+				<div class="olw-item-img">
+					<img src="./images/portfolio/portfolio4.jpg" alt="">
+					<div class="olw-overlay"></div>
+				</div>
+				<div class="olw-item-ctn">
+					<a href="#" class="olw-item-atag">view</a>
+					<h3 class="olw-it-up"><a href="#">another portfolio 4</a></h3>
+					<p class="olw-it-up">multipurpose, Joomla</p>
+				</div>
+			</div>
+			<div class="olw-m-item">
+				<div class="olw-item-img">
+					<img src="./images/portfolio/portfolio5.jpg" alt="">
+					<div class="olw-overlay"></div>
+				</div>
+				<div class="olw-item-ctn">
+					<a href="#" class="olw-item-atag">view</a>
+					<h3 class="olw-it-up"><a href="#">another portfolio 4</a></h3>
+					<p class="olw-it-up">multipurpose, Joomla</p>
+				</div>
+			</div>
+			<div class="olw-m-item">
+				<div class="olw-item-img">
+					<img src="./images/portfolio/portfolio6.jpg" alt="">
+					<div class="olw-overlay"></div>
+				</div>
+				<div class="olw-item-ctn">
+					<a href="#" class="olw-item-atag">view</a>
+					<h3 class="olw-it-up"><a href="#">another portfolio 4</a></h3>
+					<p class="olw-it-up">multipurpose, Joomla</p>
+				</div>
+			</div>
+			<div class="olw-m-item">
+				<div class="olw-item-img">
+					<img src="./images/portfolio/portfolio7.jpg" alt="">
+					<div class="olw-overlay"></div>
+				</div>
+				<div class="olw-item-ctn">
+					<a href="#" class="olw-item-atag">view</a>
+					<h3 class="olw-it-up"><a href="#">another portfolio 4</a></h3>
+					<p class="olw-it-up">multipurpose, Joomla</p>
+				</div>
+			</div>
+			<div class="olw-m-item">
+				<div class="olw-item-img">
+					<img src="./images/portfolio/portfolio8.jpg" alt="">
+					<div class="olw-overlay"></div>
+				</div>
+				<div class="olw-item-ctn">
+					<a href="#" class="olw-item-atag">view</a>
+					<h3 class="olw-it-up"><a href="#">another portfolio 4</a></h3>
+					<p class="olw-it-up">multipurpose, Joomla</p>
+				</div>
+			</div>
+		</div>		
+	</div>
+	<div class="olw-ftr">
+		<div class="container olw-sub-ftr">
+			<p>
+			we design and develop services for customers of all specializing in creating</p>
+			<a href="#">visit us</a>
+		</div>
+	</div>
+
+	<!-- team  -->
+	<div class="team-compo">
+		<div class="container">
+			<div class="team-head nw-head">team members</div>
+			<div class="team-main">
+				<div class="row">
+					<a href="#" class="team-m-atag">
+						<div class="col-12 col-md-4 team-m-item">
+							<div class="team-m-img">
+								<img src="./images/team/team1.jpg" alt="">
+								<div class="team-overlay"></div>
+							</div>
+							<div class="team-ctn">
+								<div class="team-m-info">
+									<h4>jon snow</h4>
+									<p>ceo</p>
+								</div>
+								<div class="team-m-icon">
+									<a href="#" class="tm-tl-left"><i class="fab fa-facebook-f"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#" class="tm-tl-right"><i class="fab fa-youtube"></i></a>
+								</div>
+							</div>
+						</div>	
+					</a>
+					<a href="#" class="team-m-atag">
+						<div class="col-12 col-md-4 team-m-item">
+							<div class="team-m-img">
+								<img src="./images/team/team2.jpg" alt="">
+								<div class="team-overlay"></div>
+							</div>
+							<div class="team-ctn">
+								<div class="team-m-info">
+									<h4>sansa stark</h4>
+									<p>designer</p>
+								</div>
+								<div class="team-m-icon">
+									<a href="#" class="tm-tl-left"><i class="fab fa-facebook-f"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#" class="tm-tl-right"><i class="fab fa-youtube"></i></a>
+								</div>
+							</div>
+						</div>	
+					</a>
+					<a href="#" class="team-m-atag">
+						<div class="col-12 col-md-4 team-m-item">
+							<div class="team-m-img">
+								<img src="./images/team/team4.jpg" alt="">
+								<div class="team-overlay"></div>
+							</div>
+							<div class="team-ctn">
+								<div class="team-m-info">
+									<h4>ned stark</h4>
+									<p>head of idea</p>
+								</div>
+								<div class="team-m-icon">
+									<a href="#" class="tm-tl-left"><i class="fab fa-facebook-f"></i></a>
+									<a href="#"><i class="fab fa-twitter"></i></a>
+									<a href="#" class="tm-tl-right"><i class="fab fa-youtube"></i></a>
+								</div>
+							</div>
+						</div>	
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- design -->
+	<div class="ds-compo">	
+		<div class="ds-item-img">
+			<div class="ds-img-hide">
+				<img src="./images/background/woman1.png" alt="">
+			</div>
+		</div>
+		<div class="ds-item-ctn">
+			<div class="ds-sub-ctn">
+				<h1>design. develop. dedicate</h1>
+				<div class="ds-ctn-f">
+					<div class="ds-ctn-icon">
+						<i class="fas fa-bullseye f-common"></i>
+					</div>
+					<div class="ds-ctn-ic-ctn">
+						<a href="#" class="ds-ctn-atag">astonishing at any size screen</a>
+						<p>Curabitur iaculis accumsan augue, ex ea commodo consequat nec finibus mauris pretium eu.</p>
+					</div>
+				</div>
+				<div class="ds-ctn-f">
+					<div class="ds-ctn-icon">
+						<i class="far fa-life-ring f-common"></i>
+					</div>
+					<div class="ds-ctn-ic-ctn">
+						<a href="#" class="ds-ctn-atag">Designed to be amazing alltime</a>
+						<p>Nulla facilisi curabitur iaculis accumsan augue, ex ea commodo consequat nec finibus mauris pretium eu.</p>
+					</div>
+				</div>
+				<div class="ds-ctn-f" style="margin-bottom: 0px;">
+					<div class="ds-ctn-icon">
+						<i class="fas fa-wrench f-common"></i>
+					</div>
+					<div class="ds-ctn-ic-ctn">
+						<a href="#" class="ds-ctn-atag">Cean Code with highest standard </a>
+						<p>Suspendisse ultricies umsan augue, ex ea commodo consequat nec finibus mauris pretium eu.</p>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<!-- news -->
+	<div class="nw-compo">
+		<div class="container">
+			<div class="nw-head">latest news</div>
+			<div class="nw-ctn">
+				<div class="row">
+					<div class="col-12 col-md-4 col-lg-4 nw-ctn-item">
+						<div class="nw-item-img">
+							<img src="./images/news/first-news.jpg" alt="">
+						</div>
+						<div class="nw-item-body">
+							<a href="#" class="nw-item-para">pucho na alphat de lah</a>
+							<div class="nw-item-info">
+								<div class="nw-sub-info"><i class="fas fa-male"></i><a href="#">super user</a></div>
+								<div class="nw-sub-info"><i class="fab fa-blogger"></i><a href="#">blog</a></div>
+								<div class="nw-sub-info clear-fix"><i class="far fa-comment-dots"></i><a href="#">0 comments</a></div>
+							</div>
+							<p class="nw-item-cmt">They never said winning was easy. Some people can’t handle success, I can. I’m up…</p>
+							<a href="#" class="nw-rdmore">read more<i class="fas fa-long-arrow-alt-right"></i></a>
+						</div>
+					</div>
+					<div class="col-12 col-md-4 col-lg-4 nw-ctn-item">
+						<div class="nw-item-img">
+							<img src="./images/news/first-news.jpg" alt="">
+						</div>
+						<div class="nw-item-body">
+							<a href="#" class="nw-item-para">sagittis quam frin gilla sit</a>
+							<div class="nw-item-info">
+								<div class="nw-sub-info"><i class="fas fa-male"></i><a href="#">super user</a></div>
+								<div class="nw-sub-info"><i class="fab fa-blogger"></i><a href="#">blog</a></div>
+								<div class="nw-sub-info clear-fix"><i class="far fa-comment-dots"></i><a href="#">0 comments</a></div>
+							</div>
+							<p class="nw-item-cmt">They never said winning was easy. Some people can’t handle success, I can. I’m up…</p>
+							<a href="#" class="nw-rdmore">read more<i class="fas fa-long-arrow-alt-right"></i></a>
+						</div>	
+					</div>
+					<div class="col-12 col-md-4 col-lg-4 nw-ctn-item">
+						<div class="nw-item-img">
+							<img src="./images/news/first-news.jpg" alt="">
+						</div>
+						<div class="nw-item-body">
+							<a href="#" class="nw-item-para">praesent tempus ac mi vel</a>
+							<div class="nw-item-info">
+								<div class="nw-sub-info"><i class="fas fa-male"></i><a href="#">super user</a></div>
+								<div class="nw-sub-info"><i class="fab fa-blogger"></i><a href="#">blog</a></div>
+								<div class="nw-sub-info clear-fix"><i class="far fa-comment-dots"></i><a href="#">0 comments</a></div>
+							</div>
+							<p class="nw-item-cmt">They never said winning was easy. Some people can’t handle success, I can. I’m up…</p>
+							<a href="#" class="nw-rdmore">read more<i class="fas fa-long-arrow-alt-right"></i></a>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- what-they-say -->
+	<div class="wts-component">
+		<div id="carouselIndicators" class="carousel slide " data-ride="carousel" data-interval="6000" data-pause="hover">
+			<ol class="carousel-indicators d-none">
+			    <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+			    <li data-target="#carouselIndicators" data-slide-to="1"></li>
+			    <li data-target="#carouselIndicators" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+			    <div class="carousel-item active">
+			      	<img class="d-block w-100" src="images/background/b6.jpg" alt="Third slide">
+			      	<div class="wts-slider-item">
+						<div class="wts-ctn-head">“A great deal of effort and preparation has already gone into this year and I would really like to thank all the volunteers for their efforts. One of the most important aspects of that trust is the recognition. Very quick and high quality professional service.”</div>
+						<div class="wts-ctn-img">
+							<img src="./images/person/person1.jpg" alt="">
+						</div>
+						<p class="wts-name">Jaime Lannister</p>
+						<p>Casterly Rock</p>
+					</div>
+			    </div>
+			    <div class="carousel-item">
+			    	<img class="d-block w-100" src="images/background/b6.jpg" alt="Third slide">
+			      	<div class="wts-slider-item">
+						<div class="wts-ctn-head">“A great deal of effort and preparation has already gone into this year and I would really like to thank all the volunteers for their efforts. One of the most important aspects of that trust is the recognition. Very quick and high quality professional service.”</div>
+						<div class="wts-ctn-img">
+							<img src="./images/person/person2.jpg" alt="">
+						</div>
+						<p class="wts-name">Daenerys Targaryen</p>
+						<p>Valyrian</p>
+					</div>
+			    </div>
+			    <div class="carousel-item">
+			     	 <img class="d-block w-100" src="images/background/b6.jpg" alt="Third slide">
+			     	 <div class="wts-slider-item">
+						<div class="wts-ctn-head">“A great deal of effort and preparation has already gone into this year and I would really like to thank all the volunteers for their efforts. One of the most important aspects of that trust is the recognition. Very quick and high quality professional service.”</div>
+						<div class="wts-ctn-img">
+							<img src="./images/person/person1.jpg" alt="">
+						</div>
+						<p class="wts-name">Stannis Baratheon</p>
+						<p>Dragonstone</p>
+					</div>
+			    </div>
+			</div>
+			<div class="wts-head"> 
+				what they say
+			</div>
+			<a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"><i class="fas fa-angle-left fa-3x"></i></span>
+			    <span class="sr-only">Previous</span>
+			</a>
+			<a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"><i class="fas fa-angle-right fa-3x"></i></span>
+			    <span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+	
 	<!-- partners -->
 	<div class="ptner-compo">
 		<div class="container">
@@ -62,8 +836,9 @@
 			</div>
 		</div>	
 	</div>
+
 	<!-- footer -->
-	<!-- <footer class="ftr-compo">
+	<footer class="ftr-compo">
 		<div class="container ftr-head">
 			<div class="row">
 				<div class="col-12 col-md-6 col-lg-3 ftr-first">
@@ -185,7 +960,21 @@
 				</div>			
 			</div>
 		</div>
-	</footer> -->
+	</footer>
+	<!-- scroll-to-top -->
+	<a href="#top" class="go-to-top" title="Top">
+		<i class="fas fa-angle-up"></i>
+	</a>
+	<script>
+		var goTop = document.getElementsByClassName("go-to-top")[0];
+		window.onscroll = function(){
+			if(document.body.scrollTop > 250 || document.documentElement.scrollTop > 250){
+				goTop.style.display = "block";
+			}else{
+				goTop.style.display = "none";
+			}
+		}
+	</script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
