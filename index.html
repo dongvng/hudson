@@ -4,11 +4,13 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>HUDSON</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="index.css">
+
 </head>
 <body>
 	<!-- header -->
@@ -719,16 +721,10 @@
 	</div>
 
 	<!-- what-they-say -->
-	<div class="wts-component">
-		<div id="carouselIndicators" class="carousel slide " data-ride="carousel" data-interval="6000" data-pause="hover">
-			<ol class="carousel-indicators d-none">
-			    <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-			    <li data-target="#carouselIndicators" data-slide-to="1"></li>
-			    <li data-target="#carouselIndicators" data-slide-to="2"></li>
-			</ol>
-			<div class="carousel-inner">
+	<div class="wts-component crs-bg">
+		<div id="carouselIndicators" class="carousel slide" data-ride="carousel" data-interval="36000">
+			<div class="carousel-inner ">
 			    <div class="carousel-item active">
-			      	<img class="d-block w-100" src="images/background/b6.jpg" alt="Third slide">
 			      	<div class="wts-slider-item">
 						<div class="wts-ctn-head">“A great deal of effort and preparation has already gone into this year and I would really like to thank all the volunteers for their efforts. One of the most important aspects of that trust is the recognition. Very quick and high quality professional service.”</div>
 						<div class="wts-ctn-img">
@@ -739,7 +735,6 @@
 					</div>
 			    </div>
 			    <div class="carousel-item">
-			    	<img class="d-block w-100" src="images/background/b6.jpg" alt="Third slide">
 			      	<div class="wts-slider-item">
 						<div class="wts-ctn-head">“A great deal of effort and preparation has already gone into this year and I would really like to thank all the volunteers for their efforts. One of the most important aspects of that trust is the recognition. Very quick and high quality professional service.”</div>
 						<div class="wts-ctn-img">
@@ -750,7 +745,6 @@
 					</div>
 			    </div>
 			    <div class="carousel-item">
-			     	 <img class="d-block w-100" src="images/background/b6.jpg" alt="Third slide">
 			     	 <div class="wts-slider-item">
 						<div class="wts-ctn-head">“A great deal of effort and preparation has already gone into this year and I would really like to thank all the volunteers for their efforts. One of the most important aspects of that trust is the recognition. Very quick and high quality professional service.”</div>
 						<div class="wts-ctn-img">
@@ -951,19 +945,11 @@
 		</div>
 	</footer>
 	<!-- scroll-to-top -->
-	<a href="#top" class="go-to-top" title="Top">
+	<button class="go-to-top" id="go-top" title="Top">
 		<i class="fas fa-angle-up"></i>
-	</a>
-	<script>
-		var goTop = document.getElementsByClassName("go-to-top")[0];
-		window.onscroll = function(){
-			if(document.body.scrollTop > 250 || document.documentElement.scrollTop > 250){
-				goTop.style.display = "block";
-			}else{
-				goTop.style.display = "none";
-			}
-		}
-	</script>
+	</button>
+
+	<script type="text/javascript" src="js/interactive.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
