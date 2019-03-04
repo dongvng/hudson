@@ -1,0 +1,70 @@
+
+.ptner-compo{
+	width: 100%;
+	height: 400px;
+	background-color: white;
+	font-family: "Montserrat", sans-serif;
+	padding: 60px 0px;
+}
+.ptner-compo .container{
+	height: 100%;
+}
+.ptner-compo-head{
+	position: relative;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	font-size: 34px;
+	margin-bottom: 30px;
+}
+.ptner-compo-head::after{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: 0;
+	width: 40px;
+	height: 2px;
+	background-color: #1bbde8;
+}
+
+.ptner-compo-slider{
+	width: 100%;
+	height: 120px;
+	overflow: hidden;
+	position: relative;
+}
+.ptner-slider-wrapper{
+	width: 1824px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	animation: partnerSlider 8s infinite;
+}
+.ptner-slider-item{
+	width: 228px;
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+@keyframes partnerSlider{
+	0%{left: 0px;}
+	10%{left: -228px;}
+	30%{left: -228px;}
+	40%{left: -456px;}
+	70%{left: -456px;}
+	80%{left: -684px;}
+	100%{left: 0px;}
+}
+.ptner-slider-item a img{
+	opacity: 1;
+	transition: all 0.3s;
+}
+.ptner-slider-item a:hover img{
+	opacity: 0.6;
+}

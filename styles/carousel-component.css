@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+@media screen and (max-width: 992px){
+	.carousel-inner-title h3{
+		font-size: 26px!important;
+		margin-bottom: 20px!important;
+	}
+	.carousel-inner-title p{
+		font-size: 18px!important;
+		margin-bottom: 28px!important;
+	}
+	.carousel-inner-title .carousel-lm a{
+	padding: 8px 16px!important;
+	}
+}
+@media screen and (max-width: 768px){
+	.carousel-lm{
+		display: none!important;
+	}
+	.carousel-inner-title h3{
+		font-size: 22px!important;
+		margin-bottom: 20px!important;
+	}
+	.carousel-inner-title p{
+		font-size: 14px!important;
+		margin-bottom: 20px!important;
+	}
+}
+#carouselExampleIndicators:hover .elapsed-slider{
+	animation-play-state: paused;
+}
+.carousel{
+	position: relative;
+}
+.carousel-indicators li{
+	width: 20px!important;
+	height: 20px!important;
+	border-radius: 50%!important;
+	border: 3px solid #1bbde8!important;
+}
+.active{
+	background-color: #d02727!important;
+}
+.carousel-inner{
+	overflow: visible;
+}
+.carousel-item{
+	backface-visibility: visible;
+}
+.elapsed-slider{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 0;
+	height: 5px;
+	background-color: #999;
+	animation: sliderRun 8.1s linear infinite;
+}
+@keyframes sliderRun{
+	0%{width: 0; opacity: 1;}
+	90%{width: 100%; opacity: 1;}
+	91%{width: 100%; opacity: 0;}
+	92%{width: 0; opacity: 0;}
+	100%{width: 0; opacity: 0;}
+}
+.carousel-inner-title{
+	position: absolute;
+	width: 70%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.carousel-item .middle{
+	text-align: center;
+}
+.carousel-item .middle .carousel-lm{
+	display: flex;
+	justify-content: center;
+}
+.carousel-item .right{
+	text-align: right;
+}
+.carousel-item .right .carousel-lm{
+	display: flex;
+	justify-content: flex-end;
+}
+.carousel-inner-title h3{
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 46px;
+	color: black;
+	transition: all 0.3s;
+	margin-bottom: 26px;
+	visibility: hidden;
+	animation-name: firstEle;
+	animation-duration: 1s;
+	animation-delay: 0.3s;
+	animation-fill-mode: forwards;	
+}
+@keyframes firstEle{
+	from{transform: translateY(-80%); visibility: hidden; opacity: 0;}
+	to{transform: translateY(0); visibility: visible; opacity: 1;}
+}
+
+.carousel-inner-title p{
+	color: #555;
+	visibility: hidden;
+	font-size: 22px;
+	margin-bottom: 34px;
+	animation-name: thirdEle;
+	animation-duration: 1s;
+	animation-delay: 1s;
+	animation-fill-mode: forwards;	
+}
+@keyframes thirdEle{
+	from{transform: translateX(-10%); visibility: hidden; opacity: 0;}
+	to{transform: translateX(0); visibility: visible; opacity: 1;}
+}
+.carousel-inner-title .carousel-lm{	
+	visibility: hidden;	
+	float: left;
+	position: absolute;
+	left: 0;
+	transform: translateX(-50%);
+	text-transform: uppercase;
+	animation-name: fourthEle;
+	animation-duration: 1s;
+	animation-delay: 1.5s;
+	animation-fill-mode: forwards;	
+}
+.carousel-inner-title .cr-lm-1{
+	position: absolute!important;
+	left: 35%!important;
+}
+.carousel-inner-title .cr-lm-2{
+	position: absolute!important;
+	left: 55%!important;
+}
+.carousel-inner-title .cr-lm-2 a{
+	background-color: white!important;
+	color: #1bbde8!important;
+}
+.carousel-inner-title .cr-lm-2 a:hover{
+	background-color: #1bbde8!important;
+	color: white!important;
+}
+
+.carousel-inner-title .carousel-lm a{
+	color: white;
+	background-color: #1bbde8;
+	padding: 12px 24px;
+	transition: all 0.3s;
+}
+.carousel-inner-title .carousel-lm a:hover{
+	text-decoration: none;
+	color: #1bbde8;
+	background-color: #333;
+}
+@keyframes fourthEle{
+	from{transform: translateY(100%); visibility: hidden; opacity: 0;}
+	to{transform: translateY(0); visibility: visible; opacity: 1;}
+}
+.carousel-control-prev-icon{
+	background-image: none!important;	
+}
+.carousel-control-next-icon{
+	background-image: none!important;	
+}
+.carousel:hover .fa-chevron-circle-left{
+	opacity: 1;
+}
+.fa-chevron-circle-left{
+	opacity: 0;
+	color: #666!important;
+	transition: all 0.3s;
+}
+.fa-chevron-circle-left:hover{
+	color: #000!important;
+}
+.carousel:hover .fa-chevron-circle-right{
+	opacity: 1;
+}
+.fa-chevron-circle-right{
+	opacity: 0;
+	color: #666!important;
+	transition: all 0.3s;
+}
+.fa-chevron-circle-right:hover{
+	color: #000!important;
+}
+
+
