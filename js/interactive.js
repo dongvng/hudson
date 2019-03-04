@@ -1,3 +1,4 @@
+
 var goTop = document.getElementsByClassName("go-to-top")[0];
 var gotoTop = document.getElementById("top");
 window.onscroll = function(){
